@@ -1,0 +1,28 @@
+{
+  "name": "makeboy",
+  "version": "0.0.0",
+  "type": "module",
+  "repository": {
+    "url": "https://github.com/tlonny/makeboy"
+  },
+  "files": ["dist"],
+  "devDependencies": {
+    "@stylistic/eslint-plugin": "^5.5.0",
+    "@types/bun": "latest",
+    "@typescript-eslint/eslint-plugin": "^8.46.3",
+    "@typescript-eslint/parser": "^8.46.3",
+    "bun-plugin-dts": "^0.3.0",
+    "eslint": "^9.39.1",
+    "typedoc": "^0.28.15"
+  },
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js",
+      "require": "./dist/index.cjs"
+    }
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  }
+}
