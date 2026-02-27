@@ -1,9 +1,9 @@
 {
   "name": "makeboy",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "type": "module",
   "repository": {
-    "url": "https://github.com/tlonny/makeboy"
+    "url": "https://github.com/lonnycorp/makeboy"
   },
   "files": ["dist"],
   "devDependencies": {
